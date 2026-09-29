@@ -1,0 +1,1 @@
+digraph G { rankdir=LR; node [shape=box, style=rounded]; UI [label="ui.py\nConsole UI"]; V [label="validators.py\nInput validation"]; C [label="calculator.py\nDispatch/service"]; O [label="operations.py\nArithmetic"]; S [label="scientific.py\nScientific ops"]; M [label="menu.py\nMenu definitions"]; Main [label="main.py\nEntry point"]; Main->UI; UI->M; UI->V; UI->C; C->O; C->S; }

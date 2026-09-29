@@ -1,0 +1,1 @@
+digraph G { rankdir=LR; node [shape=box, style=rounded]; A [label="No persistent database\nrequired"]; B [label="Runtime state\nLocal variables only"]; C [label="Standard input/output\nConsole interaction"]; A->B; B->C; }

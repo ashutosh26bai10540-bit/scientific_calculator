@@ -1,0 +1,3 @@
+# Runtime: Python 3.10+ (standard library only)
+# Development/testing dependency:
+pytest>=8.0
